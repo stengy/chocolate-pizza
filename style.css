@@ -10,14 +10,14 @@
 
 header{
   /*width: 940px;*/
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   height: 75px;
 }
 
 body{
   max-width: 960px;
   background-color: #E8CE5B;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 
@@ -52,4 +52,31 @@ body{
   height: 15px;
   background-color: gray;
   margin-top: 10px;
+}
+
+#print-logo{
+  height: 25px;
+  width: 25px;
+  float:left;
+  margin-left: 60%;
+  margin-top: 25px;
+  display: flex;
+}
+
+#chocolate-pizza{
+  width: 225px;
+  float:left;
+}
+
+#title{
+  margin-top: 100px;
+}
+
+#choco-pic{
+  margin-top: 20px;
+}
+
+p3{
+  margin:20px;
+  display:block;
 }
