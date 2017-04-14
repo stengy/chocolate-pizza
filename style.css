@@ -4,6 +4,10 @@
   width: 100%
 }
 
+.clearfix{
+  clear: both;
+}
+
 body{
   max-width: 960px;
   background-color: #E8CE5B;
@@ -18,4 +22,13 @@ body{
 
 #blog-name {
   margin-left: 8%;
+}
+
+#media-logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 80%;
+  display: inline
+  float:left;
+
 }
