@@ -8,11 +8,18 @@
   clear: both;
 }
 
+header{
+  /*width: 940px;*/
+  border: 2px solid blue;
+  height: 75px;
+}
+
 body{
   max-width: 960px;
   background-color: #E8CE5B;
-  border: 2px solid black
+  border: 2px solid black;
 }
+
 
 #logo {
   width: 50px;
@@ -21,14 +28,28 @@ body{
 }
 
 #blog-name {
-  margin-left: 8%;
+  width: 400px;
+  margin-left: 2%;
+  float:left;
+}
+
+#logo-size{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  margin: 5px;
+
 }
 
 #media-logo {
-  width: 25px;
-  height: 25px;
-  margin-left: 80%;
-  display: inline
+  margin-left: 30%;
   float:left;
+  width: 100px;
 
+}
+
+#gray-bar{
+  height: 15px;
+  background-color: gray;
+  margin-top: 10px;
 }
