@@ -16,10 +16,36 @@ header{
 
 body{
   max-width: 960px;
-  background-color: #E8CE5B;
-  /*border: 2px solid black;*/
+
 }
 
+.spacing{
+  padding:1px;
+}
+
+p{
+  font-size: 12px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p2{
+  color: grey;
+  font-size: 12px;
+}
+
+text-print{
+  float: left;
+  margin-top: 44px;
+  width: 20px;
+  margin-left: 2px;
+}
+
+p3{
+  font-size: 20px;
+}
 
 #logo {
   width: 50px;
@@ -59,17 +85,17 @@ body{
   width: 25px;
   float:left;
   margin-left: 60%;
-  margin-top: 25px;
-  display: flex;
+  margin-top: 44px;
+  /*display: flex;*/
 }
 
 #chocolate-pizza{
-  width: 225px;
+  width: 300px;
   float:left;
 }
 
 #title{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #choco-pic{
@@ -120,7 +146,7 @@ li{
 #name-bio-box{
   float:left;
   margin-left: 15px;
-  width: 500px;
+  width: 700px;
 }
 
 #share-box{
@@ -128,7 +154,7 @@ li{
   float:left;
   width: 100px;
   height: 40px;
-  margin-left: 80px;;
+  margin-left: 20px;;
   text-align: center;
   color: white;
 }
@@ -160,4 +186,13 @@ li{
   height: 200px;
   text-align: center;
   color:grey;
+}
+
+h3{
+  font-size: 30px;
+}
+
+bio{
+  font-size: 20px;
+
 }
