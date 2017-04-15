@@ -95,7 +95,6 @@ p4{
   width: 200px;
   font-size: 25px;
 
-
 }
 
 p5{
@@ -109,4 +108,56 @@ p5{
 
 li{
   padding-top: 10px;
+}
+
+#van-pic{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float:left;
+}
+
+#name-bio-box{
+  float:left;
+  margin-left: 15px;
+  width: 500px;
+}
+
+#share-box{
+  background-color: maroon;
+  float:left;
+  width: 100px;
+  height: 40px;
+  margin-left: 80px;;
+  text-align: center;
+  color: white;
+}
+
+#author-bar{
+  margin-top: 25px;
+}
+
+#bottom-bar{
+  height: 2px;
+  background-color: grey;
+  margin-top: 200px;
+}
+
+
+#bottom-logo{
+  margin-left: 48%;
+  margin-top: -2.5%;
+  /*margin-bottom: 5%*/
+  float:left;
+  height: 40px;
+  width: 40px;
+}
+
+#bottom-box{
+  margin-top: 50px;
+  margin-left: 35%;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  color:grey;
 }
